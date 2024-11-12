@@ -7,9 +7,9 @@ import List from './List';
 import Navbar from './Navbar';
 
 function App() {
-  const statusList = [ 'Backlog', 'Todo','In progress', 'Done', 'Cancelled']
-  const userList = ['Anoop Sharma', 'Ramesh', 'Shankar Kumar', 'Suresh', 'Yogesh']
-  const priorityList = [{name:'Urgent', priority: 4},{name:'High', priority: 3},{name:'Medium', priority: 2},{name:'No priority', priority: 0}]
+  const statusList = ['In progress', 'Backlog', 'Todo', 'Done', 'Cancelled']
+  const userList = ['Anoop sharma', 'Yogesh', 'Shankar Kumar', 'Ramesh', 'Suresh']
+  const priorityList = [{name:'No priority', priority: 0}, {name:'Low', priority: 1}, {name:'Medium', priority: 2}, {name:'High', priority: 3}, {name:'Urgent', priority: 4}]
 
   const [groupValue, setgroupValue] = useState(getStateFromLocalStorage() || 'status')
   const [orderValue, setorderValue] = useState('title')
