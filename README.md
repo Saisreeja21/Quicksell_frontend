@@ -50,10 +50,12 @@ Make sure you have Node.js and npm installed.
 
 ## You can verify installation with:
 node -v
+
 npm -v
 
 ## Installation
 Clone the repository:
+
 git clone https://github.com/yourusername/kanban-board.git
 
 ## Install dependencies:
